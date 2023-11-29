@@ -1,0 +1,215 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+hr {
+    width: 700px;
+}
+
+#jumbotron {
+    background-image: url("Images/2K-Wallpaper.jpg");
+    background-size: cover;
+    background-position-y: center;
+    padding: 30px;
+    margin: top 70;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.m7md-store {
+    font-family: 'Playfair Display', serif;
+}
+
+.jumbotron-gif {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-header {
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+
+
+}
+
+
+a:hover {
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+/* Jumbotron */
+
+
+
+.game {
+    width: 260px;
+    margin: 40px;
+    text-align: center;
+    border: 5px solid brown;
+}
+
+.games {
+    display: flex;
+    justify-content: center
+}
+
+
+.game-img {
+    opacity: 1;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.game-img:hover {
+    opacity: 0.7;
+}
+
+
+/* Table */
+table,
+tr,
+th,
+td {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+
+}
+
+tr:first-of-type,
+th {
+    background-color: antiquewhite;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    border-spacing: 0;
+    background-color: rgba(222, 68, 68, 0);
+}
+
+td {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+tr {
+    width: 600px;
+    padding: 20px;
+}
+
+th {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+}
+
+.list-button {
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+/* List */
+.packs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/2K-Wallpaper.jpg");
+    padding: 20px
+}
+
+.pack {
+    height: 300px;
+    width: 200px;
+    background-color: silver;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+
+.text-list {
+    text-align: center;
+}
+
+.button-pack {
+    color: aqua;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*  */
+
+.button-pack:hover{
+    background-color: gray;
+    color: aqua;
+}
+
+/* about */
+#section-about {
+    display: flex;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+
+
+
+/* Footer */
+
+#footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text {
+    display: flex;
+}
